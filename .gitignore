@@ -1,0 +1,24 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Directory for plugin cache (added by terraform 0.14+)
+.terraform/providers
+
+# Local configuration files
+.terraform.lock.hcl
+
+# Secret files
+*.tfvars
+*.tfvars.json
+
+# Backups
+*~
+# You can also add more project-specific files as needed
